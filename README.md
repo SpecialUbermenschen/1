@@ -1,6 +1,6 @@
 # Incident Monitoring System
 
-This repository contains a simple prototype for a monitoring system that detects and classifies incidents on servers and Docker containers.
+This repository contains a small monitoring prototype.  It collects basic CPU and memory metrics from the host and scans the system log for error messages.  When an incident is detected it is classified and a suggested resolution is printed.
 
 ## Components
 
@@ -9,7 +9,7 @@ This repository contains a simple prototype for a monitoring system that detects
 
 ## Running
 
-Ensure you have Python 3 and Java installed. Then run:
+Ensure you have Python 3 and Java installed.  No external Python packages are required.  Then run:
 
 ```bash
 javac src/main/java/com/example/monitor/MonitorService.java
